@@ -1,11 +1,11 @@
 .off {
   --text-color: red;
-  --switch: url(./tv.png);
+  --switch: url(./assets/tv.png);
   --box-color: orangered;
 }
 .on {
   --text-color: purple; 
-  --switch: url(./tv_on.png);
+  --switch: url(./assets/tv_on.png);
   --box-color: blueviolet;
 }
 body{
@@ -94,6 +94,6 @@ td {
 #switch:hover{
     width: 57px;
   height: 78px; 
-  background: black url(./tv_2.png) no-repeat center;
+  background: black url(./assets/tv_2.png) no-repeat center;
   border: 0; 
 }
