@@ -1,0 +1,99 @@
+.off {
+  --text-color: red;
+  --switch: url(./tv.png);
+  --box-color: orangered;
+}
+.on {
+  --text-color: purple; 
+  --switch: url(./tv_on.png);
+  --box-color: blueviolet;
+}
+body{
+  background-color: black; 
+  color: var(--text-color);
+  font-family: 'Courier New', Courier, monospace
+  
+}
+p{
+  font-size: 13pt;
+}
+body#frame {
+  color: red; 
+  padding: 20px,0px,0px,0px;
+  text-align: center;
+}
+  
+body#main{
+  padding: 100px, 0px, 140px, 0px;
+  text-align: center; 
+}
+body#index{
+  padding: 140px, 0px, 0px, 0px;
+  text-align: center;
+  color: red; 
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #9999ff;
+}
+a:active{
+  color: #9999ff;
+}
+a:visited{
+  color: #666699;
+}
+a:hover{
+  color: #cccc00;
+}
+.perfil{
+  border: 5px dashed var(--box-color);
+  width:225px;
+  height: auto;
+}
+.centralizado{
+  display: inline-block;
+}
+.flex_imagem{
+  display: flex;
+  margin-left: 500px; 
+}
+.content{
+  display: inline-block;
+  margin-left: 20px; 
+  margin-right: 600px;
+  text-align: justify;
+  margin-top: 0;
+}
+.tamanho{
+  border: 5px dashed orangered;
+  width: 180px;
+  height: auto;
+}
+body#r{
+  padding : 40px,100px,140px,100px;
+  text-align: center;
+  color: red;
+}
+td#wid_a {
+  width: 160px;
+}
+#wid_b {
+ width: 700px;
+}
+td {
+  font-size: 13pt;
+}
+#switch {
+  width: 57px;
+  height: 78px; 
+  background: black var(--switch) no-repeat center;
+  border: 0; 
+}
+#switch:hover{
+    width: 57px;
+  height: 78px; 
+  background: black url(./tv_2.png) no-repeat center;
+  border: 0; 
+}
